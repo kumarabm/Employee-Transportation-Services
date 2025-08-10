@@ -29,6 +29,19 @@ app.use((req, res, next) => {
 // Routes
 app.use('/api/contact', contactRoutes);
 
+// Root route for frontend
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'TransportPro Backend API',
+    version: '1.0.0',
+    endpoints: {
+      contact: '/api/contact',
+      health: '/api/health'
+    }
+  });
+});
+
 // Health check route
 app.get('/api/health', (req, res) => {
   res.status(200).json({
