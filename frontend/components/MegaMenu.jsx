@@ -68,7 +68,7 @@ export default function MegaMenu() {
           <h3 className="text-2xl font-bold text-gray-800 mb-2">Transportation Services</h3>
           <p className="text-gray-600">Professional mobility solutions for your business needs</p>
         </div>
-        
+
         <div className="grid grid-cols-2 gap-6">
           {services.map((service, index) => (
             <div 
@@ -102,7 +102,7 @@ export default function MegaMenu() {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-8 pt-6 border-t border-gray-100 flex items-center justify-between">
           <div className="text-sm text-gray-500">
             Need a custom solution? Contact our team for personalized quotes.

@@ -77,7 +77,7 @@ export default function ContactForm() {
       }
     } catch (error) {
       let errorMessage = 'Error: Failed to submit request. Please try again.';
-      
+
       if (error.response?.data?.message) {
         errorMessage = 'Error: ' + error.response.data.message;
       } else if (error.response?.data?.errors) {
@@ -86,7 +86,7 @@ export default function ContactForm() {
       } else if (error.code === 'ECONNREFUSED') {
         errorMessage = 'Error: Unable to connect to server. Please try again later.';
       }
-      
+
       setSubmitMessage(errorMessage);
       setSubmitStatus('error');
       console.error('Form submission error:', error);
@@ -295,7 +295,7 @@ export default function ContactForm() {
               <p className="text-blue-100 mb-8 lg:mb-12 leading-relaxed text-base sm:text-lg">
                 Our transportation experts are standing by to help you create the perfect mobility solution for your employees.
               </p>
-              
+
               <div className="space-y-6 lg:space-y-8">
                 <div className="flex items-center group">
                   <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mr-6 group-hover:bg-white/30 transition-colors">
@@ -308,7 +308,7 @@ export default function ContactForm() {
                     <div className="text-blue-100 text-lg">+1 (800) 123-TRANS</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center group">
                   <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mr-6 group-hover:bg-white/30 transition-colors">
                     <svg className="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -321,7 +321,7 @@ export default function ContactForm() {
                     <div className="text-blue-100 text-lg">quotes@transportpro.com</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center group">
                   <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center mr-6 group-hover:bg-white/30 transition-colors">
                     <svg className="w-6 h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
@@ -341,7 +341,7 @@ export default function ContactForm() {
               <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-8">
                 What Happens Next?
               </h3>
-              
+
               <div className="space-y-8">
                 <div className="flex items-start group">
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-full flex items-center justify-center mr-6 flex-shrink-0 font-bold text-lg group-hover:scale-110 transition-transform">
@@ -352,7 +352,7 @@ export default function ContactForm() {
                     <div className="text-gray-600 leading-relaxed">We'll contact you within 24 hours to discuss your transportation needs and requirements</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start group">
                   <div className="w-12 h-12 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-full flex items-center justify-center mr-6 flex-shrink-0 font-bold text-lg group-hover:scale-110 transition-transform">
                     2
@@ -362,7 +362,7 @@ export default function ContactForm() {
                     <div className="text-gray-600 leading-relaxed">Receive a detailed transportation plan with routes, pricing, and service options</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start group">
                   <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-yellow-400 text-gray-900 rounded-full flex items-center justify-center mr-6 flex-shrink-0 font-bold text-lg group-hover:scale-110 transition-transform">
                     3
