@@ -3,6 +3,7 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const errorHandler = require('./middleware/errorHandler');
 const contactRoutes = require('./routes/contactRoutes');
+const { specs, swaggerUi } = require('./config/swagger');
 
 // Load environment variables
 dotenv.config();
@@ -26,6 +27,13 @@ app.use((req, res, next) => {
   next();
 });
 
+// Swagger Documentation
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs, {
+  explorer: true,
+  customCss: '.swagger-ui .topbar { display: none }',
+  customSiteTitle: 'TransportPro API Documentation'
+}));
+
 // Routes
 app.use('/api/contact', contactRoutes);
 
@@ -35,9 +43,11 @@ app.get('/', (req, res) => {
     success: true,
     message: 'TransportPro Backend API',
     version: '1.0.0',
+    documentation: '/api-docs',
     endpoints: {
       contact: '/api/contact',
-      health: '/api/health'
+      health: '/api/health',
+      stats: '/api/contact/stats'
     }
   });
 });
