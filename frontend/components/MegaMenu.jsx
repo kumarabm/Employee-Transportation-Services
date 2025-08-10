@@ -50,7 +50,7 @@ export default function MegaMenu() {
     }
   ];
 
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
       const offsetTop = element.offsetTop - 80;
