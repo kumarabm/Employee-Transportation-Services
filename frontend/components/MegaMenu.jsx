@@ -54,9 +54,9 @@ export default function MegaMenu() {
     const element = document.getElementById(sectionId);
     if (element) {
       const offsetTop = element.offsetTop - 80;
-      window.scrollTo({ 
-        top: offsetTop, 
-        behavior: "smooth" 
+      window.scrollTo({
+        top: offsetTop,
+        behavior: "smooth"
       });
     }
   };
@@ -71,8 +71,8 @@ export default function MegaMenu() {
 
         <div className="grid grid-cols-2 gap-6">
           {services.map((service, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="group/item p-6 rounded-xl hover:bg-gray-50 transition-all duration-200 cursor-pointer border border-transparent hover:border-gray-200"
               onClick={() => scrollToSection("services")}
             >
@@ -107,7 +107,7 @@ export default function MegaMenu() {
           <div className="text-sm text-gray-500">
             Need a custom solution? Contact our team for personalized quotes.
           </div>
-          <button 
+          <button
             onClick={() => scrollToSection("contact")}
             className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-2 rounded-lg hover:from-blue-700 hover:to-cyan-700 transition-all duration-200 font-semibold text-sm"
           >
