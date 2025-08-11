@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs, {
   explorer: true,
   customCss: '.swagger-ui .topbar { display: none }',
-  customSiteTitle: 'TransportPro API Documentation'
+  customSiteTitle: 'Transportation Service API Documentation'
 }));
 
 // Routes
@@ -41,7 +41,7 @@ app.use('/api/contact', contactRoutes);
 app.get('/', (req, res) => {
   res.status(200).json({
     success: true,
-    message: 'TransportPro Backend API',
+    message: 'Transportation Service Backend API',
     version: '1.0.0',
     documentation: '/api-docs',
     endpoints: {
