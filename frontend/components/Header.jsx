@@ -37,7 +37,7 @@ export default function Header() {
                 </svg>
               </div>
               <span className="text-xl lg:text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                TransportPro
+                Transportation Service
               </span>
             </Link>
           </div>

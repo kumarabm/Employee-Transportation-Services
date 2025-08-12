@@ -6,12 +6,12 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'TransportPro API',
+      title: 'Transportation Service API',
       version: '1.0.0',
       description: 'Employee Transportation Services API with MongoDB',
       contact: {
-        name: 'TransportPro Support',
-        email: 'support@transportpro.com'
+        name: 'Transportation Service Support',
+        email: 'support@Transportation Service.com'
       }
     },
     servers: [

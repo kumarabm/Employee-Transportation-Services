@@ -11,7 +11,7 @@ export default function About() {
                 Your Trusted Transportation Partner
               </h2>
               <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 leading-relaxed mb-8">
-                For over a decade, TransportPro has been revolutionizing how companies 
+                For over a decade, Transportation Service has been revolutionizing how companies 
                 move their most valuable asset - their people. We understand that reliable 
                 transportation isn't just about getting from point A to point B.
               </p>

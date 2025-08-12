@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TransportPro - Professional Employee Transportation Services</title>
+        <title>Transportation Service - Professional Employee Transportation Services</title>
         <meta 
           name="description" 
           content="Reliable employee transportation solutions including shuttles, corporate cars, airport transfers, and event transportation. Trusted by 500+ companies nationwide." 
@@ -21,21 +21,21 @@ export default function Home() {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://transportpro.com/" />
-        <meta property="og:title" content="TransportPro - Professional Employee Transportation Services" />
+        <meta property="og:url" content="https://Transportation Service.com/" />
+        <meta property="og:title" content="Transportation Service - Professional Employee Transportation Services" />
         <meta property="og:description" content="Reliable employee transportation solutions including shuttles, corporate cars, airport transfers, and event transportation. Trusted by 500+ companies nationwide." />
         <meta property="og:image" content="/og-image.jpg" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://transportpro.com/" />
-        <meta property="twitter:title" content="TransportPro - Professional Employee Transportation Services" />
+        <meta property="twitter:url" content="https://Transportation Service.com/" />
+        <meta property="twitter:title" content="Transportation Service - Professional Employee Transportation Services" />
         <meta property="twitter:description" content="Reliable employee transportation solutions including shuttles, corporate cars, airport transfers, and event transportation. Trusted by 500+ companies nationwide." />
         <meta property="twitter:image" content="/twitter-image.jpg" />
         
         {/* Additional meta tags */}
         <meta name="keywords" content="employee transportation, corporate shuttle, airport transfer, business transport, company car service" />
-        <meta name="author" content="TransportPro" />
+        <meta name="author" content="Transportation Service" />
         <meta name="robots" content="index, follow" />
         
         {/* Schema.org structured data */}
@@ -45,9 +45,9 @@ export default function Home() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "TransportPro",
-              "url": "https://transportpro.com",
-              "logo": "https://transportpro.com/logo.png",
+              "name": "Transportation Service",
+              "url": "https://Transportation Service.com",
+              "logo": "https://Transportation Service.com/logo.png",
               "description": "Professional employee transportation services for businesses",
               "serviceType": "Transportation Service",
               "areaServed": "United States",

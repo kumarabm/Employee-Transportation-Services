@@ -305,7 +305,7 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <div className="font-bold text-lg">Call Us Directly</div>
-                    <div className="text-blue-100 text-lg">+1 (800) 123-TRANS</div>
+                    <div className="text-blue-100 text-lg">+91 9360520932</div>
                   </div>
                 </div>
 
@@ -318,7 +318,7 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <div className="font-bold text-lg">Email Us</div>
-                    <div className="text-blue-100 text-lg">quotes@transportpro.com</div>
+                    <div className="text-blue-100 text-lg">quotes@Transportation Service.com</div>
                   </div>
                 </div>
 

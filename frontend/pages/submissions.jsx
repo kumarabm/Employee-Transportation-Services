@@ -58,7 +58,7 @@ export default function Submissions() {
     return (
       <>
         <Head>
-          <title>Contact Submissions - TransportPro Admin</title>
+          <title>Contact Submissions - Transportation Service Admin</title>
         </Head>
         <div className="min-h-screen bg-gray-100 flex items-center justify-center">
           <div className="text-center">
@@ -73,7 +73,7 @@ export default function Submissions() {
   return (
     <>
       <Head>
-        <title>Contact Submissions - TransportPro Admin</title>
+        <title>Contact Submissions - Transportation Service Admin</title>
         <meta name="description" content="Manage contact form submissions and quote requests" />
       </Head>
 
@@ -88,7 +88,7 @@ export default function Submissions() {
                     <path d="M18 8.5V5c0-1.1-.9-2-2-2H8C6.9 3 6 3.9 6 5v3.5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2zM3 12v8c0 1.1.9 2 2 2h14c0-1.1-.9-2-2-2V12H3z" />
                   </svg>
                 </div>
-                <h1 className="text-2xl font-bold text-gray-900">TransportPro Admin</h1>
+                <h1 className="text-2xl font-bold text-gray-900">Transportation Service Admin</h1>
               </div>
               <a 
                 href="/"
