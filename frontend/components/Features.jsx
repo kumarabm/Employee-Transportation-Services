@@ -74,7 +74,7 @@ export default function Features() {
       <div className="max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 mb-6">
-            Why Choose TransportPro?
+            Why Choose Transportation Service?
           </h2>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Experience the difference with our comprehensive transportation solutions designed 
@@ -115,7 +115,7 @@ export default function Features() {
                 Trusted by Industry Leaders
               </h3>
               <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
-                Join hundreds of companies who have streamlined their transportation with TransportPro
+                Join hundreds of companies who have streamlined their transportation with Transportation Service
               </p>
             </div>
 

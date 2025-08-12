@@ -22,7 +22,7 @@ export default function Footer() {
                   <path d="M18 8.5V5c0-1.1-.9-2-2-2H8C6.9 3 6 3.9 6 5v3.5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2zM3 12v8c0 1.1.9 2 2 2h14c0-1.1-.9-2-2-2V12H3z" />
                 </svg>
               </div>
-              <span className="text-2xl font-bold text-white">TransportPro</span>
+              <span className="text-2xl font-bold text-white">Transportation Service</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
               Professional employee transportation services that keep your workforce moving efficiently and safely. 
@@ -100,7 +100,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-semibold">Email Support</div>
-                <div className="text-gray-300">support@transportpro.com</div>
+                <div className="text-gray-300">support@Transportation Service.com</div>
               </div>
             </div>
             
@@ -121,7 +121,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 TransportPro. All rights reserved. | 
+            © 2024 Transportation Service. All rights reserved. | 
             <a href="#" className="hover:text-white ml-2">Privacy Policy</a> | 
             <a href="#" className="hover:text-white ml-2">Terms of Service</a>
           </div>
