@@ -1,0 +1,86 @@
+{
+  "title": "ContactSubmission",
+  "description": "Schema for storing employee transportation service contact form submissions.",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "maxLength": 50,
+      "description": "First name of the contact person."
+    },
+    "lastName": {
+      "type": "string",
+      "maxLength": 50,
+      "description": "Last name of the contact person."
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address of the contact person."
+    },
+    "phone": {
+      "type": "string",
+      "pattern": "^[\\d\\s\\-\\+\\(\\)]+$",
+      "description": "Phone number of the contact person."
+    },
+    "company": {
+      "type": "string",
+      "maxLength": 100,
+      "description": "Company name."
+    },
+    "employeeCount": {
+      "type": "string",
+      "enum": ["1-10", "11-50", "51-200", "201-500", "500+"],
+      "description": "Number of employees in the company."
+    },
+    "serviceTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Employee Shuttles",
+          "Corporate Cars",
+          "Airport Transfers",
+          "Event Transportation"
+        ]
+      },
+      "minItems": 1,
+      "description": "List of transportation service types requested."
+    },
+    "message": {
+      "type": "string",
+      "maxLength": 1000,
+      "description": "Additional message from the contact person."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["new", "contacted", "quoted", "closed"],
+      "default": "new",
+      "description": "Current status of the contact submission."
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Internal notes regarding the submission."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date when the submission was created."
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date when the submission was last updated."
+    }
+  },
+  "required": [
+    "firstName",
+    "lastName",
+    "email",
+    "phone",
+    "company",
+    "employeeCount",
+    "serviceTypes"
+  ]
+}
